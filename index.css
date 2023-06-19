@@ -16,16 +16,13 @@ body {
 }
 main {
   width: 550px;
-  height: 285px;
-  margin: 20px auto 0 auto;
+  margin: 20px auto 20px auto;
+  padding-bottom: 0px;
 }
 .header-container {
   background: var(--background-blue);
   color: var(--background-text-button-white);
   padding-top: 25px;
-}
-.section-container {
-  background: var(--background-grey);
 }
 section {
   background: var(--background-text-button-white);
@@ -84,7 +81,8 @@ button {
 }
 
 .section-container {
-  padding: 36px 25px;
+  background: var(--background-grey);
+  padding: 36px 25px 20px;
 }
 section {
   padding: 30px 0;
